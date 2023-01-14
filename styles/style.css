@@ -1,0 +1,94 @@
+/* common style */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Poppins:wght@400;500;700&family=Work+Sans:wght@700&display=swap');
+body{
+    font-family: 'Work Sans', sans-serif;
+    margin:0px;
+}
+/* section one */
+.container-one{
+    background-color:rgba(255, 144, 14, 0.1);
+    margin-bottom:50px;
+}
+/* First part design of section one */
+.header{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    margin-left:140px;
+    font-size: 20px;
+}
+.list{
+    list-style: none;
+    display:flex;
+    margin-left:380px;
+    font-size:8px;
+}
+.list-item{
+    margin-right:20px;
+}
+/* 2nd part of section one */
+.group-one{
+    text-align:center;
+    margin-bottom:20px;
+}
+.group{
+    font-size:34px;
+    margin-bottom:10px;
+}
+.text-one{
+    font-size:16px;
+    font-weight:400;
+    color:#727272;
+}
+.btn-primary{
+    color:#FFFFFF;
+    font-Weight:600;
+    font-size:10px;
+    height: 34px;
+    width:100px;
+    Border:0;
+    border-radius: 5px;
+    background-color:#FD6E0A;
+}
+/* 3rd part of section one */
+.img{
+    height:600px;
+    margin-left:140px;
+    margin-bottom:20px;
+}
+/* section two */
+.container-two{
+    display:flex;
+    align-items:center;
+    margin-left:200px;
+    margin-right:200px;
+    margin-bottom:70px;
+}
+/* part one */
+.image-design{
+    width: 242px;
+    height: 242px;
+}
+.images{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:15px;
+}
+/* part two */
+.group-two{
+    margin-left:80px;
+}
+.dark{
+    color:#727272;
+    font-size:25px;
+}
+.our{
+    font-size:25px;
+}
+.orange{
+    color:#FF900E;
+    font-size:25px;
+}
