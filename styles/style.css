@@ -149,3 +149,25 @@ body{
     position:relative;
     top:-10px;
 }
+/* section six */
+.container-six{
+    margin-left:200px;
+    margin-right:200px;
+    margin-bottom:70px;
+    display:flex;
+}
+.different{
+    border:3px solid #FF900E;
+    width:150px;
+    height:150px;
+    text-align:center;
+    padding-top:25px;
+    margin-left:100px;
+}
+.number{
+    font-size:40px;
+    margin-bottom:-15px;
+}
+.font{
+    margin-bottom:-45px;
+}
