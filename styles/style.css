@@ -331,3 +331,95 @@ body{
     color: #424242;
     padding-top:15px;
 }
+/* mobile device */
+@media screen and (max-width: 576px){
+    .text{
+        margin-left:0px;
+    }
+    .list{
+        flex-direction:column;
+        margin-left:200px;
+    }
+    .img{
+        width:100%;
+        margin-left:0px;
+    }
+    /* section-two */
+    .container-two{
+        flex-direction:column;
+        margin-left:0px;
+    }
+    .images{
+       grid-template-columns: 10px;
+    }
+    .group-two{
+        margin-left:20px;
+    }
+    /* section-three */
+    .container{
+        margin-left:150px;
+    }
+    .container-three{
+        flex-direction:column;
+        margin-left:20px;
+    }
+    .design{
+        width:100%
+    }
+    /* section-four */
+    .btn{
+        position:relative;
+        left:210px;
+        top:-50px;
+    }
+    /* section-five */
+    .container-five{
+        margin-left:20px;
+        margin-right:50px;
+    }
+    /* section six */
+    .container-six{
+        margin-left:100px;
+        flex-direction: column;
+    }
+    .different-box-one{
+        margin-bottom:20px;
+    }
+    .different-box-two{
+        margin-bottom:20px;
+    }
+    .different-box-three{
+        margin-bottom:20px;
+    }
+    /* section-seven */
+    .container-seven{
+        flex-direction:column;
+        margin-left:90px;
+        margin-right:0px;
+        margin-bottom:70px;
+    }
+    .sponsor{
+        margin-bottom:20px;
+    }
+    /* section eight */
+    .container-eight{
+        margin-left:20px;
+        margin-right:20px;
+        margin-bottom:70px;
+    }
+    /* section-nine */
+    .container-nine{
+        flex-direction:column;
+        margin-left:100px;
+        margin-right:0px;
+        margin-bottom:70px;
+    }
+    /* section-ten */
+    .container-ten{
+        margin-left:20px;
+    }
+    .last-section{
+        width:150%;
+    }
+
+}
