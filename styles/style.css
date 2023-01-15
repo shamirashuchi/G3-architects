@@ -288,3 +288,38 @@ body{
     animation-duration: 15s;
     Iteration-count:2;
 }
+/* section-seven */
+.container-seven{
+    display:flex;
+    align-items: center;
+    margin-left:200px;
+    margin-right:200px;
+    margin-bottom:70px;
+}
+.filter{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+.sponsor{
+    width: 165.83px;
+    height: 50px;
+    margin-right:75px;
+}
+/* section nine */
+.container-nine{
+    margin-left:200px;
+    margin-right:200px;
+    margin-bottom:70px;
+}
+.last-section{
+    width: 1160px;
+    height: 70px;
+    background-color:#FFF4E7;
+    border-radius: 8px;
+    text-align:center;
+}
+.text-five{
+    font-size:15px;
+    color: #424242;
+    padding-top:25px;
+}
