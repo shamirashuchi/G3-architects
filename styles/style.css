@@ -156,7 +156,31 @@ body{
     margin-bottom:70px;
     display:flex;
 }
-.different{
+.different-box-one{
+    border:3px solid #FF900E;
+    width:150px;
+    height:150px;
+    text-align:center;
+    padding-top:25px;
+    margin-left:100px;
+}
+.different-box-two{
+    border:3px solid #FF900E;
+    width:150px;
+    height:150px;
+    text-align:center;
+    padding-top:25px;
+    margin-left:100px;
+}
+.different-box-three{
+    border:3px solid #FF900E;
+    width:150px;
+    height:150px;
+    text-align:center;
+    padding-top:25px;
+    margin-left:100px;
+}
+.different-box-four{
     border:3px solid #FF900E;
     width:150px;
     height:150px;
@@ -170,4 +194,97 @@ body{
 }
 .font{
     margin-bottom:-45px;
+}
+/* Animation */
+/* box-1 animation */
+@keyframes translate {
+    0%{ border-color:pink;
+        background-color:pink;
+        transform: translate(0, 0);}
+    25%{border-color:skyblue;
+        background-color: skyblue;
+        transform: translate(10em, 0);}
+    50%{border-color:pink;
+        background-color: pink;
+        transform: translate(0, 0);}
+    75%{border-color:skyblue;
+        background-color: skyblue;
+        transform: translate(10em, 0);}
+    100%{border-color:pink;
+        background-color: pink;
+        transform: translate(0, 0);}
+  }
+  .different-box-one:hover{
+    animation-name: translate;
+    animation-duration: 15s;
+    Iteration-count:2;
+}
+/* box-2 animation */
+@keyframes rotate {
+    0%{ border-color:pink;
+        background-color:pink;
+        transform:rotate(0deg);}
+    25%{border-color:skyblue;
+        background-color: skyblue;
+        transform: rotate(90deg);}
+    50%{border-color:pink;
+        background-color: pink;
+        transform: rotate(0deg);}
+    75%{border-color:skyblue;
+        background-color: skyblue;
+        transform: rotate(90deg);}
+    100%{border-color:pink;
+        background-color: pink;
+        transform: translate(0, 0);}
+  }
+  .different-box-two:hover{
+    animation-name: rotate;
+    animation-duration: 15s;
+    Iteration-count:2;
+}
+/* box-3 animation */
+@keyframes translate-again {
+    0%{ border-color:pink;
+        background-color:pink;
+        transform:translate(0, 0);}
+    25%{border-color:skyblue;
+        background-color: skyblue;
+        transform:translate(-10em, 3em);}
+    50%{border-color:pink;
+        background-color: pink;
+        transform: translate(0, 0);}
+    75%{border-color:skyblue;
+        background-color: skyblue;
+        transform: translate(-10em, 3em);}
+    100%{border-color:pink;
+        background-color: pink;
+        transform: translate(0, 0);}
+  }
+  .different-box-three:hover{
+    animation-name: translate-again;
+    animation-duration: 15s;
+    Iteration-count:2;
+}
+/* box-4 animation */
+@keyframes transform {
+    0%{ border-color:pink;
+        background-color:pink;
+        transform:rotate(0deg);}
+    25%{border-color:skyblue;
+        background-color: skyblue;
+        transform: rotate(-90deg);}
+    50%{border-color:pink;
+        background-color: pink;
+        transform: rotate(0deg);}
+    75%{border-color:skyblue;
+        background-color: skyblue;
+        transform:rotate(-90deg);}
+    100%{border-color:pink;
+        background-color: pink;
+        transform: scale(0);}
+  }
+  .different-box-four:hover{
+    animation-name: transform;
+    animation-duration: 15s;
+    Iteration-count:2;
 }
